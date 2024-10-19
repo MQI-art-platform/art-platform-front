@@ -8,6 +8,7 @@ import { ApiClientProvider } from "./client/platform.api.context";
 import { SessionProvider } from "./session/session.context";
 import OrderSuccess from "./pages/SuccessOrder";
 import PaintingPage from "./pages/PaintingPage";
+import CreatePaintingForm from "./pages/CreatePaintingForm";
 
 export default function App() {
     const BASE_URL = "http://localhost:8080"
@@ -22,6 +23,7 @@ export default function App() {
                             <Route path="catalog" element={<Catalog />} />
                             <Route path="success-order" element={<OrderSuccess />} />
                             <Route path="painting" element={<PaintingPage />} />
+                            <Route path="painting/create" element={<CreatePaintingForm />} />
                             <Route path="*" element={<NoPageFound />} />
                         </Route>
                     </Routes>
