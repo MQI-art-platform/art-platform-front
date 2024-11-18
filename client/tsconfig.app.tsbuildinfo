@@ -1,1 +1,1 @@
-{"root":["./src/personalaccount.tsx","./src/main.tsx","./src/types.tsx","./src/vite-env.d.ts"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/constants.tsx","./src/main.tsx","./src/types.tsx","./src/vite-env.d.ts","./src/components/header.tsx","./src/components/layout.tsx","./src/pages/nopagefound.tsx","./src/pages/personalaccount.tsx","./src/pages/shoppingcart.tsx"],"version":"5.6.3"}
